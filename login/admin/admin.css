@@ -1,0 +1,184 @@
+body{
+	background-color: #F2F2F2;
+}
+
+/*ADMIN MODULE READ.PHP*/
+.underline{
+	border-bottom: 1px solid black;
+	height: 40px;
+	/*overflow: hidden;*/
+}
+.testing{
+	height: 20px;
+}
+/*TEST BOJE*/
+.plava{
+	background-color: blue;
+}
+.crvena{
+	background-color: red;
+}
+.zelena{
+	background-color: green;
+}
+.zuta{
+	background-color: yellow;
+}
+
+.table-first{
+	width: 70px;
+}
+.table-second{
+	width: 200px;
+}
+.table-fourth{
+	width: 200px;
+}
+.table-fifth{
+	width: 200px;
+}
+.first-row{
+	background-color: #f0ad4e;
+}
+.popravka-read{
+	margin-top: 30px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.action-buttons [class*="col-"]{
+	min-width: 200px;
+}
+.action-buttons{
+	margin-top: 50px;
+}
+.for-buttons{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #f0ad4e;
+	transition: 0.5s;
+}
+.for-buttons:hover{
+	cursor: pointer;
+	background-color: #ec971f;
+	transition: 0.5s;
+}
+.for-buttons img{
+	margin-top: 18px;
+}
+table tr{
+	cursor: pointer;
+}
+/*END ADMIN MODULE READ.PHP*/
+
+
+/*POPRAVKA_READ.INC.PHP*/
+.cenovnik{
+	font-size: 16px;
+	border-collapse: separate;
+	padding: 20px;
+	background-color: #D6D6D6;
+}
+.donjalinija{
+	border-bottom: 1px solid black;
+}
+.cenovnik tfoot::before{
+	content: '';
+  	display: block;
+  	height: 15px;
+  	width: 200px;
+}
+.cenovnik tfoot tr{
+	width: 300px;
+}
+.cenovnik tfoot td{
+	width: 150px;
+}
+.ikonice{
+	width: 40px;
+}
+.popravljen{
+	margin-top: 50px;
+}
+
+/*-------------------------------*/
+/*USER_READ.INC.PHP*/
+.motor_detail{
+	background-color: #ec971f;
+	margin-top: 20px;
+	padding: 5px;
+}
+.red{
+	background-color: red;
+}
+.icons-holder{
+	margin-top: 20px;
+}
+.zamotor{
+	max-height: 20px;
+	margin-right: 10px;
+}
+.motor-name-holder{
+	color: white;
+	display: block;
+}
+
+/*END USER_READ.INC.PHP*/
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/*POPRAVKA_CREATE.INC.PHP*/
+.dropdown{
+	position: absolute;
+	background-color: #7F7E7A;
+}
+.results{
+	width: 200px;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.results li:hover{
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+.results li{
+	color: #FAFAFA;
+	padding: 5px;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+.usernamesuggest{
+	width: 200px;
+}
+/*END POPRAVKA_CREATE.INC.PHP*/
+/*-------------------------------*/
+
+
+
+/*-------------------------------*/
+/*MOTOR_READ.INC.PHP*/
+.motor-read-table{
+	margin-top: 50px;
+}
+
+
+/*END MOTOR_READ.INC.PHP*/
+/*-------------------------------*/
+
+
+
+/*-------------------------------*/
+/*POPRAVKA_READ_ONLY.INC.PHP*/
+.popravka_delete{
+	margin-top: 20px;
+}
+
+/*END POPRAVKA_READ_ONLY.INC.PHP*/
+/*-------------------------------*/
+
+
